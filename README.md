@@ -34,3 +34,7 @@ Functions for extracting task embeddings for different parameter efficient tunin
 ```shell
 extract_task_emb.py
 ```
+
+### Pre-computed Task Embedding
+
+We also release the embeddings for each task [here](https://github.com/JetRunner/TuPaTE/tree/main/task_embeddings).
