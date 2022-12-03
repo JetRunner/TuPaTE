@@ -1,5 +1,5 @@
 # TuPaTE
-Code for EMNLP 2022 paper "Efficiently Tuned Parameters are Task Embeddings"
+Code for EMNLP 2022 paper ["Efficiently Tuned Parameters are Task Embeddings"](https://arxiv.org/abs/2210.11705)
 
 ### Setup
 We conduct our experiment with Anaconda3. If you have installed Anaconda3, then create the environment by:
