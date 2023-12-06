@@ -129,4 +129,7 @@ dmypy.json
 .pyre/
 
 # Trained model
-model/
+pretrained_model/
+
+# vscode settings
+.vscode/

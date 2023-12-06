@@ -9,7 +9,7 @@ import transformers
 from transformers import set_seed, Trainer
 from transformers.trainer_utils import get_last_checkpoint
 
-from arguments import get_args
+from arguments import get_args, DataTrainingArguments
 
 from tasks.utils import *
 
@@ -67,7 +67,9 @@ if __name__ == '__main__':
 
     args = get_args()
 
-    _, data_args, training_args, _ = args
+    training_args: DataTrainingArguments = None
+
+    _, data_args, training_args , _ = args
 
     logging.basicConfig(
         format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
